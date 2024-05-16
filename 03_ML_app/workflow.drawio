@@ -1,0 +1,67 @@
+<mxfile host="65bd71144e">
+    <diagram id="DrlXYd3jnoiQOG3U0Pyj" name="Page-1">
+        <mxGraphModel dx="573" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Aim:&lt;br&gt;A machine leaning app&lt;br&gt;Helping to select the best model based on regression and classification&amp;nbsp;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Fine tuning the model&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="50" width="290" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="8" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Load the Data&lt;br&gt;or Upload the data" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="190" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Example Data Button" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="12" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Check the Column name and data type" style="whiteSpace=wrap;html=1;align=center;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Asking for the features and targets We have to find if problem is regression or classification" style="whiteSpace=wrap;html=1;align=center;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="520" width="170" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="17" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Preprocessing&lt;br&gt;-Null values&amp;nbsp;&lt;br&gt;Imputation&amp;nbsp;&lt;br&gt;-Feature Encoding&lt;br&gt;-Inverse Transform&lt;br&gt;-Feature selection" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="650" width="170" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="19" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Select the model from all the regression or classifier models (This will based on the point of selecting target variables)" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="820" width="230" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="21" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Add the evaluation matrics based on Problems" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="245" y="980" width="145" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="23" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Print the evaluation matrics and select the best possible model with multiple hyperparameters" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1160" width="180" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Ask the user for input data based on slider and predict the output of target variables with respect to matrics" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="228.75" y="1340" width="182.5" height="110" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
